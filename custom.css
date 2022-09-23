@@ -1,0 +1,220 @@
+body {
+    background: #f8f9fa;
+    font-family: 'Anek Telugu', sans-serif;;
+}
+
+.btnt{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #e6013a;
+    transition: 0.6s;
+    font-size: 18px;
+    border: none;
+    background: none;
+    margin-right: 3em;
+    font-weight: 600;
+}
+
+.nav-link{
+    color: #fff;
+    transition: 0.3s;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+ul li:first-child{
+    margin-left: 0;
+}
+
+.btnt:hover{
+    text-shadow: 0px 0px 20px  #e6013a;
+}
+
+.imgLogo{
+    width: 10vw;
+    margin-right: 5em;
+}
+
+.card-group{
+    margin-bottom: 1rem;
+}
+
+.card-group .card{
+    box-shadow: 0 0 5px rgba(43, 43, 43, 0.05);
+    border: 0;
+    outline: 0;
+    margin-left: 5bem;
+}
+
+/*Configuração dos Cards*/
+
+.cdp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.two{
+    display: flex;
+    margin-left: 1em;
+}
+
+.two:first-child{
+    margin-left: 0;
+}
+
+.card-z{
+    width: 10vw;
+    margin-left: 1em; 
+}
+
+.cdp .two .card-z:first-child{
+    margin-left: 0;
+}
+
+
+.card-img-topz{
+    border-radius: 10px;
+    transition: .4s;
+}
+
+.card-img-topz:hover
+{
+    -webkit-transform: scale(1.1);
+    transform: scale (1.1);
+    -webkit-filter: drop-shadow(1px 1px 1px rgba(0,0,0,.5));
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,.5));
+}
+
+
+.footer{
+    width: 100%;
+    height: 13vh;
+    position: relative;
+    background-color: #212529;
+    bottom: 0px;
+}
+
+.con{
+    margin-bottom: 1vw;
+}
+
+.con2{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.cop{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5vh;
+}
+
+.texto1{
+    margin-top: 4em;
+    margin-bottom: 10vw;
+}
+
+.texto2{
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+}
+
+@media only screen and (max-width: 991px) {
+    .btnt{
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 739px) {
+    .form-control{
+        display: none;
+
+    }
+    .btn{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    
+    .btn{
+        margin-right: 15px;
+    }
+    .btnt{
+        margin-right: 15px;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 1152px) {
+    .imgLogo{
+        margin-right: 3em;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .imgLogo{
+        margin-right: 4vw;
+        width: 20vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .imgLogo{
+        width: 30vw;
+        margin-right: 2vw;
+    }
+    .btnt{
+        margin-right: 0;
+    }
+    .cdp{
+        flex-direction: column;
+    }
+    .card-z{
+        margin-bottom: 1em; 
+        width: 35vw;
+        margin-left: 3em;
+    }
+    .two{
+        display: flex;
+        flex-direction: row;
+        margin-left: 0;
+    }
+    .cdp .two .card-z:first-child{
+        margin-left: 0;
+    }
+    .texto1{
+        margin-top: 0;
+        margin-bottom: 17vw;
+    }
+    .texto2{
+        margin-bottom: 20vw;
+    }
+    .cop{
+        padding-top: 5vh;
+    }
+}
+
+@media only screen and (max-width: 345px) {
+    .imgLogo{
+        width: 25vw;
+        margin-right: 0;
+    }
+    .btnt{
+        font-size: 5vw;
+    }
+}
+
+button .btn-outline-light, .btn-sm, .btn{
+    transition: 0.5s;
+    outline: none;
+}
+
